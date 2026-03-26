@@ -1,0 +1,7 @@
+C:\xampp\htdocs\P.O.O\Act 1\punto5\bin\Debug\punto5.exe.config
+C:\xampp\htdocs\P.O.O\Act 1\punto5\bin\Debug\punto5.exe
+C:\xampp\htdocs\P.O.O\Act 1\punto5\bin\Debug\punto5.pdb
+C:\xampp\htdocs\P.O.O\Act 1\punto5\obj\Debug\punto5.csproj.AssemblyReference.cache
+C:\xampp\htdocs\P.O.O\Act 1\punto5\obj\Debug\punto5.csproj.CoreCompileInputs.cache
+C:\xampp\htdocs\P.O.O\Act 1\punto5\obj\Debug\punto5.exe
+C:\xampp\htdocs\P.O.O\Act 1\punto5\obj\Debug\punto5.pdb

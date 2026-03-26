@@ -1,0 +1,7 @@
+C:\xampp\htdocs\P.O.O\Act 1\punto4\bin\Debug\punto4.exe.config
+C:\xampp\htdocs\P.O.O\Act 1\punto4\bin\Debug\punto4.exe
+C:\xampp\htdocs\P.O.O\Act 1\punto4\bin\Debug\punto4.pdb
+C:\xampp\htdocs\P.O.O\Act 1\punto4\obj\Debug\punto4.csproj.AssemblyReference.cache
+C:\xampp\htdocs\P.O.O\Act 1\punto4\obj\Debug\punto4.csproj.CoreCompileInputs.cache
+C:\xampp\htdocs\P.O.O\Act 1\punto4\obj\Debug\punto4.exe
+C:\xampp\htdocs\P.O.O\Act 1\punto4\obj\Debug\punto4.pdb

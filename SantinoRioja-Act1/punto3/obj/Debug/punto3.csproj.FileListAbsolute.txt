@@ -1,0 +1,7 @@
+C:\xampp\htdocs\P.O.O\Act 1\punto3\obj\Debug\punto3.csproj.AssemblyReference.cache
+C:\xampp\htdocs\P.O.O\Act 1\punto3\obj\Debug\punto3.csproj.CoreCompileInputs.cache
+C:\xampp\htdocs\P.O.O\Act 1\punto3\bin\Debug\punto3.exe.config
+C:\xampp\htdocs\P.O.O\Act 1\punto3\bin\Debug\punto3.exe
+C:\xampp\htdocs\P.O.O\Act 1\punto3\bin\Debug\punto3.pdb
+C:\xampp\htdocs\P.O.O\Act 1\punto3\obj\Debug\punto3.exe
+C:\xampp\htdocs\P.O.O\Act 1\punto3\obj\Debug\punto3.pdb
