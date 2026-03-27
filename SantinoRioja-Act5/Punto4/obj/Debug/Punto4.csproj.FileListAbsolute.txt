@@ -1,0 +1,7 @@
+C:\xampp\htdocs\P.O.O\SantinoRioja-Act5\Punto4\bin\Debug\Punto4.exe.config
+C:\xampp\htdocs\P.O.O\SantinoRioja-Act5\Punto4\bin\Debug\Punto4.exe
+C:\xampp\htdocs\P.O.O\SantinoRioja-Act5\Punto4\bin\Debug\Punto4.pdb
+C:\xampp\htdocs\P.O.O\SantinoRioja-Act5\Punto4\obj\Debug\Punto4.csproj.AssemblyReference.cache
+C:\xampp\htdocs\P.O.O\SantinoRioja-Act5\Punto4\obj\Debug\Punto4.csproj.CoreCompileInputs.cache
+C:\xampp\htdocs\P.O.O\SantinoRioja-Act5\Punto4\obj\Debug\Punto4.exe
+C:\xampp\htdocs\P.O.O\SantinoRioja-Act5\Punto4\obj\Debug\Punto4.pdb
