@@ -1,0 +1,14 @@
+C:\Users\santi\source\repos\Act 3\Punto 2\bin\Debug\Punto 2.exe.config
+C:\Users\santi\source\repos\Act 3\Punto 2\bin\Debug\Punto 2.exe
+C:\Users\santi\source\repos\Act 3\Punto 2\bin\Debug\Punto 2.pdb
+C:\Users\santi\source\repos\Act 3\Punto 2\obj\Debug\Punto 2.csproj.AssemblyReference.cache
+C:\Users\santi\source\repos\Act 3\Punto 2\obj\Debug\Punto 2.csproj.CoreCompileInputs.cache
+C:\Users\santi\source\repos\Act 3\Punto 2\obj\Debug\Punto 2.exe
+C:\Users\santi\source\repos\Act 3\Punto 2\obj\Debug\Punto 2.pdb
+C:\xampp\htdocs\P.O.O\SantinoRioja-Act3\Punto 2\bin\Debug\Punto 2.exe.config
+C:\xampp\htdocs\P.O.O\SantinoRioja-Act3\Punto 2\bin\Debug\Punto 2.exe
+C:\xampp\htdocs\P.O.O\SantinoRioja-Act3\Punto 2\bin\Debug\Punto 2.pdb
+C:\xampp\htdocs\P.O.O\SantinoRioja-Act3\Punto 2\obj\Debug\Punto 2.csproj.AssemblyReference.cache
+C:\xampp\htdocs\P.O.O\SantinoRioja-Act3\Punto 2\obj\Debug\Punto 2.csproj.CoreCompileInputs.cache
+C:\xampp\htdocs\P.O.O\SantinoRioja-Act3\Punto 2\obj\Debug\Punto 2.exe
+C:\xampp\htdocs\P.O.O\SantinoRioja-Act3\Punto 2\obj\Debug\Punto 2.pdb

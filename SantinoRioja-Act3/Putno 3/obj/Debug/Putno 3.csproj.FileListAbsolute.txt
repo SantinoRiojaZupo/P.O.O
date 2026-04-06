@@ -1,0 +1,7 @@
+C:\Users\santi\source\repos\Act 3\Putno 3\bin\Debug\Putno 3.exe.config
+C:\Users\santi\source\repos\Act 3\Putno 3\bin\Debug\Putno 3.exe
+C:\Users\santi\source\repos\Act 3\Putno 3\bin\Debug\Putno 3.pdb
+C:\Users\santi\source\repos\Act 3\Putno 3\obj\Debug\Putno 3.csproj.AssemblyReference.cache
+C:\Users\santi\source\repos\Act 3\Putno 3\obj\Debug\Putno 3.csproj.CoreCompileInputs.cache
+C:\Users\santi\source\repos\Act 3\Putno 3\obj\Debug\Putno 3.exe
+C:\Users\santi\source\repos\Act 3\Putno 3\obj\Debug\Putno 3.pdb

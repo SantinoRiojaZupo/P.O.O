@@ -1,0 +1,7 @@
+C:\Users\santi\source\repos\Act 3\Punto 1\bin\Debug\Punto 1.exe.config
+C:\Users\santi\source\repos\Act 3\Punto 1\bin\Debug\Punto 1.exe
+C:\Users\santi\source\repos\Act 3\Punto 1\bin\Debug\Punto 1.pdb
+C:\Users\santi\source\repos\Act 3\Punto 1\obj\Debug\Punto 1.csproj.AssemblyReference.cache
+C:\Users\santi\source\repos\Act 3\Punto 1\obj\Debug\Punto 1.csproj.CoreCompileInputs.cache
+C:\Users\santi\source\repos\Act 3\Punto 1\obj\Debug\Punto 1.exe
+C:\Users\santi\source\repos\Act 3\Punto 1\obj\Debug\Punto 1.pdb
