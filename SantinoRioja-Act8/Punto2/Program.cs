@@ -25,15 +25,27 @@ namespace Punto2
 
         public void OrdenarPaises()
         {
-            Array.Sort(paises);
+            for (int i = 0; i < paises.Length ; i++)
+            {
+                for (int j = 0; j < paises.Length - 1 ; j++)
+                {
+                    if (String.Compare(paises[j], paises[j + 1]) > 0)
+                    {
+                        string temp = paises[j];
+                        paises[j] = paises[j + 1];
+                        paises[j + 1] = temp;
+                    }
+                }
+            }
         }
 
         public void MostrarPaises()
         {
             Console.WriteLine("Paises ordenados alfabeticamente:");
-            foreach (var pais in paises)
-            {
-                Console.WriteLine(pais);
+
+            for (int i = 0;i < paises.Length;i++)
+                {
+                Console.WriteLine(paises[i]);
             }
         }
 
