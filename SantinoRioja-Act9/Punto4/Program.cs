@@ -10,9 +10,7 @@ namespace Punto4
         //4. Se realiza una evaluación a 6 docentes por parte de sus alumnos.
         //Se registran sus nombres y puntajes promedio obtenidos(de 1 a 10).
         //Cargar sus datos en vectores paralelos,
-
         //mostrar docente con calificación más alta y más baja,
-
         //ordenar los vectores de mayor a menor de acuerdo con la calificación y
         //mostrar en pantalla la cantidad de docentes que aprobaron y desaprobaron(tomando como base que se aprueba con una nota mayor o igual a 6)
     {
@@ -60,8 +58,45 @@ namespace Punto4
                 }
             }
         }
+        public void ordenar() {
+            for (int i = 0; i < 6; i++) {
+                for (int j = 0; j < 5; j++) { 
+
+                    if (puntajes[j] < puntajes[j + 1]) {
+                        float aux = puntajes[j];
+                        string auxNomb = docentes[j];
+                        puntajes[j] = puntajes[j + 1];
+                        puntajes[j + 1] = aux;
+                        docentes[j] = docentes[j + 1];
+                        docentes[j + 1] = auxNomb;
+                    }
+                }
+            
+            }
+        }
+        public void mostrar() {
+            int aprobados = 0, desaprobados = 0;
+            for (int i = 0; i < 6; i++) {
+                Console.WriteLine("El docente " + docentes[i] + " tiene un promedio de " + puntajes[i]);
+                if (puntajes[i] >= 6) {
+                    aprobados++;
+                }
+                else
+                {
+                    desaprobados++;
+                }
+            }
+            Console.WriteLine("La cantidad de docentes aprobados es: " + aprobados);
+            Console.WriteLine("La cantidad de docentes desaprobados es: " + desaprobados);
+        }
         static void Main(string[] args)
         {
+                        Program programa1 = new Program();
+            programa1.cargar();
+            programa1.masBajoAlto();
+            programa1.ordenar();
+            programa1.mostrar();
+            Console.ReadKey();
         }
     }
 }
