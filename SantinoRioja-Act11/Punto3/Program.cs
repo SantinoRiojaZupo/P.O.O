@@ -48,11 +48,7 @@ b.Cuál empleado faltó menos días.*/
                     menor = diasFaltados[i].Length;
                     empleadoMenosFaltas = empleados[i];
                 }
-                Console.WriteLine("Empleado Nro:" + i + " Inasistencias:");
-                for (int j=0; j< diasFaltados[i].Length; j++)
-                {
-                    Console.WriteLine(diasFaltados[i][j]);
-                }
+                Console.WriteLine("Empleado Nro:" + i + " Inasistencias:"+ diasFaltados[i].Length);
             }
             Console.WriteLine("Empleado con menos faltas: " + empleadoMenosFaltas);
         }
