@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 namespace Punto2
 {
     internal class Cine
-       /* 2. Gestión de Complejo de Cine
+    /* 2. Gestión de Complejo de Cine
 Un cine tiene 4 salas con diferentes capacidades de espectadores(la Sala 1 tiene 10
 asientos, la Sala 2 tiene 15, la Sala 3 tiene 8 y la Sala 4 tiene 12).
 ● Definir una matriz irregular de 4 filas para representar los asientos.
@@ -24,25 +24,75 @@ en cada asiento.
 5. Informar cuál es el promedio de edad de los espectadores de todo el
 complejo.*/
     {
-        private string[] salas;
+        private int[] salas;
         private int[][] asientos;
         public void cargar()
         {
-            salas = new string[4];
+            salas = new int[4];
             asientos = new int[4][];
             asientos[0] = new int[10];
             asientos[1] = new int[15];
             asientos[2] = new int[8];
             asientos[3] = new int[12];
-            for (int i = 0; i < 4; i++) {
-                for (int j = 0; j < 4; j++)
+            for (int i = 0; i < 4; i++)
+            {
+                for (int j = 0; j < asientos[i].Length; j++)
                 {
-                    Console.WriteLine("Ingrese la edad del espectador en la sala:" + salas[i]+" Asiento:" + asientos[i][j]);
+                    Console.WriteLine("Ingrese la edad del espectador en la sala:" + i + " Asiento:" + j);
+                    asientos[i][j] = int.Parse(Console.ReadLine());
                 }
             }
         }
+        public void imprimir()
+        {
+            for (int i = 0; i < 4; i++)
+            {
+                Console.WriteLine("Sala " + (i) + ":");
+                for (int j = 0; j < asientos[i].Length; j++)
+                {
+                    Console.Write("asiento:"+j+" Edad:"+asientos[i][j] + " ");
+                }
+                Console.WriteLine();
+            }
+        }
+        public void menores()
+        {
+            for (int i = 0; i < 4; i++)
+            {
+                int menores = 0;
+                for (int j = 0; j < asientos[i].Length; j++)
+                {
+                    if (asientos[i][j] < 18)
+                    {
+                        menores++;
+                    }
+                }
+                Console.WriteLine("En la sala " + (i) + " hay " + menores + " menores de edad");
+            }
+        }
+        public void promedio()
+        {
+            float espectadores = 0;
+            float sumaEdades = 0;
+            for (int i = 0; i < 4; i++)
+            {
+                for (int j = 0; j < asientos[i].Length; j++)
+                {
+                    sumaEdades += asientos[i][j];
+                    espectadores++;
+                }
+            }
+            float promedio = sumaEdades / espectadores;
+            Console.WriteLine("El promedio de edad de los espectadores es: " + promedio);
+        }
         static void Main(string[] args)
         {
+            Cine cine1= new Cine();
+            cine1 .cargar();
+            cine1.imprimir();
+            cine1.menores();
+            cine1.promedio();
+            Console.ReadKey();
         }
     }
 }
