@@ -34,13 +34,27 @@ complejo.*/
             asientos[1] = new int[15];
             asientos[2] = new int[8];
             asientos[3] = new int[12];
-            for (int i = 0; i < 4; i++)
+        }
+        public void ventaEntradas()
+        {
+            while (true)
             {
-                for (int j = 0; j < asientos[i].Length; j++)
+                Console.WriteLine("Ingrese el numero de sala (0-3): o -1 para dejar de ingresar entradas");
+                int sala = int.Parse(Console.ReadLine());
+                if (sala == -1) { break; }
+                Console.WriteLine("Ingrese el numero de asiento: " + "maxima cantidad de asientos en sala:" + asientos[sala].Length);
+                int asiento = int.Parse(Console.ReadLine());
+                Console.WriteLine("Ingrese la edad del espectador:");
+                int edad = int.Parse(Console.ReadLine());
+                if (sala >= 0 && sala < 4 && asiento >= 0 && asiento <= asientos[sala].Length && asientos[sala][asiento]==0)
                 {
-                    Console.WriteLine("Ingrese la edad del espectador en la sala:" + i + " Asiento:" + j);
-                    asientos[i][j] = int.Parse(Console.ReadLine());
+                    asientos[sala][asiento] = edad;
                 }
+                else
+                {
+                    Console.WriteLine("Número de sala o asiento inválido/ocupado.");
+                }
+               
             }
         }
         public void imprimir()
@@ -50,7 +64,12 @@ complejo.*/
                 Console.WriteLine("Sala " + (i) + ":");
                 for (int j = 0; j < asientos[i].Length; j++)
                 {
-                    Console.Write("asiento:"+j+" Edad:"+asientos[i][j] + " ");
+
+                    if (asientos[i][j] != 0)
+                    {
+                        Console.Write("asiento:" + j + " Edad:" + asientos[i][j] + " ");
+                        Console.WriteLine();
+                    }
                 }
                 Console.WriteLine();
             }
@@ -62,7 +81,7 @@ complejo.*/
                 int menores = 0;
                 for (int j = 0; j < asientos[i].Length; j++)
                 {
-                    if (asientos[i][j] < 18)
+                    if (asientos[i][j] < 18 && asientos[i][j] !=0)
                     {
                         menores++;
                     }
@@ -78,8 +97,11 @@ complejo.*/
             {
                 for (int j = 0; j < asientos[i].Length; j++)
                 {
-                    sumaEdades += asientos[i][j];
-                    espectadores++;
+                    if (asientos[i][j] != 0)
+                    {
+                        sumaEdades += asientos[i][j];
+                        espectadores++;
+                    }
                 }
             }
             float promedio = sumaEdades / espectadores;
@@ -89,6 +111,7 @@ complejo.*/
         {
             Cine cine1= new Cine();
             cine1 .cargar();
+            cine1.ventaEntradas();
             cine1.imprimir();
             cine1.menores();
             cine1.promedio();
