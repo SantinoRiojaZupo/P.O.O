@@ -65,10 +65,8 @@ complejo.*/
                 for (int j = 0; j < asientos[i].Length; j++)
                 {
 
-                    if (asientos[i][j] != 0)
                     {
-                        Console.Write("asiento:" + j + " Edad:" + asientos[i][j] + " ");
-                        Console.WriteLine();
+                        Console.Write(" "+asientos[i][j] + " ");
                     }
                 }
                 Console.WriteLine();
@@ -97,7 +95,6 @@ complejo.*/
             {
                 for (int j = 0; j < asientos[i].Length; j++)
                 {
-                    if (asientos[i][j] != 0)
                     {
                         sumaEdades += asientos[i][j];
                         espectadores++;
