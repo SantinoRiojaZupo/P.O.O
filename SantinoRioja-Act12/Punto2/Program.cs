@@ -42,11 +42,11 @@ complejo.*/
                 Console.WriteLine("Ingrese el numero de sala (0-3): o -1 para dejar de ingresar entradas");
                 int sala = int.Parse(Console.ReadLine());
                 if (sala == -1) { break; }
-                Console.WriteLine("Ingrese el numero de asiento: " + "maxima cantidad de asientos en sala:" + asientos[sala].Length);
+                Console.WriteLine("Ingrese el numero de asiento: " + "maxima cantidad de asientos en sala:" + (asientos[sala].Length - 1));
                 int asiento = int.Parse(Console.ReadLine());
                 Console.WriteLine("Ingrese la edad del espectador:");
                 int edad = int.Parse(Console.ReadLine());
-                if (sala >= 0 && sala < 4 && asiento >= 0 && asiento <= asientos[sala].Length && asientos[sala][asiento]==0)
+                if (sala >= 0 && sala < 4 && asiento >= 0 && asiento < asientos[sala].Length && asientos[sala][asiento]==0)
                 {
                     asientos[sala][asiento] = edad;
                 }
