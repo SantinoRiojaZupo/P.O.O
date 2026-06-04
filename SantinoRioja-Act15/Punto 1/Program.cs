@@ -85,10 +85,50 @@ Implementar los siguientes métodos dentro de SalaMonitoreo:
                 }
             }
         }
+        public void calcularPromedio()
+        {
+            for (int i = 0; i < 3; i++)
+            {
+                int suma = 0;
+                int[,] grilla = paciente[i].devolverGrilla();
+                for (int k = 0; k < 3; k++)
+                {
+                    for (int j = 0; j < 4; j++)
+                    {
+                        suma += grilla[k, j];
+                    }
+                }
+                Console.WriteLine("El promedio de pulsaciones del paciente " + paciente[i].devolverNombre() + " es: " + (suma / 12));
+            }
+        }
+        public void taquicardia()
+        {
+            for (int i = 0; i < 3; i++)
+            {
+                int[,] grilla = paciente[i].devolverGrilla();
+                for (int k = 0; k < 3; k++)
+                {
+                    for (int j = 0; j < 4; j++)
+                    {
+                        if (grilla[k, j] > 120)
+                        {
+                            string momento = "";
+                            if (j == 0) { momento = "mañana"; }
+                            if (j == 1) { momento = "mediodia"; }
+                            if (j == 2) { momento = "tarde"; }
+                            if (j == 3) { momento = "noche"; }
+                            Console.WriteLine("El paciente " + paciente[i].devolverNombre() + " registró un evento de taquicardia severa en el dia: " + k + " momento: " + momento + " con una lectura de: " + grilla[k, j]);
+                        }
+                    }
+                }
+            }
+        }
         static void Main(string[] args)
         {
             salaMonitoreo salaMonitoreo1 = new salaMonitoreo();
             salaMonitoreo1.imprimirGrillas();
+            salaMonitoreo1.calcularPromedio();
+            salaMonitoreo1.taquicardia();
             Console.ReadKey();
         }
     }
