@@ -5,3 +5,4 @@ C:\xampp\htdocs\SantinoRioja\P.O.O\SantinoRioja-Act16\Punto3\obj\Debug\Punto3.cs
 C:\xampp\htdocs\SantinoRioja\P.O.O\SantinoRioja-Act16\Punto3\obj\Debug\Punto3.csproj.CoreCompileInputs.cache
 C:\xampp\htdocs\SantinoRioja\P.O.O\SantinoRioja-Act16\Punto3\obj\Debug\Punto3.exe
 C:\xampp\htdocs\SantinoRioja\P.O.O\SantinoRioja-Act16\Punto3\obj\Debug\Punto3.pdb
+C:\xampp\htdocs\SantinoRioja\P.O.O\SantinoRioja-Act16\Punto3\obj\Debug\Punto3.exe.config

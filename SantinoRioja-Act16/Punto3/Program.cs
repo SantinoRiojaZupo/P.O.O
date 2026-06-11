@@ -26,26 +26,30 @@ Crear un objeto de cada clase y mostrar todos sus datos por consola.*/
             base2 = float.Parse(Console.ReadLine());
             marca = base1;
             velocidadMaxima = base2;
-            Console.WriteLine("Marca:"+ marca+ " Velocidad Maxima"+ velocidadMaxima);
+            Console.WriteLine("Marca:"+ marca+ " Velocidad Maxima: "+ velocidadMaxima);
         }
     }
     class Auto : Vehiculo {
         int cantidadPuertas;
 
         public Auto()
-        { 
+        {
+            string base1 = marca;
+            float base2 = velocidadMaxima;
             Console.WriteLine("Ingrese la cantidad de puertas del auto");
             cantidadPuertas = int.Parse(Console.ReadLine());
-            Console.WriteLine("Marca:"+marca+ " Velocidad Maxima:" + velocidadMaxima+ " Puertas:"+ cantidadPuertas);
+            Console.WriteLine("Marca:"+base1+ " Velocidad Maxima:" + base2+ " Puertas:"+ cantidadPuertas);
         }
     }
     class Moto : Vehiculo {
         int cilindrada;
         public Moto()
         {
+            string base1 = marca;
+            float base2 = velocidadMaxima;
             Console.WriteLine("Ingrese la cantidad de cilindrada");
             cilindrada = int.Parse(Console.ReadLine());
-            Console.WriteLine("Marca:" + marca + " Velocidad Maxima:" + velocidadMaxima + " Cilindrada:" + cilindrada);
+            Console.WriteLine("Marca:" + base1 + " Velocidad Maxima:" + base2 + " Cilindrada:" + cilindrada);
         }
     }
     internal class Program

@@ -1,0 +1,16 @@
+C:\xampp\htdocs\SantinoRioja\P.O.O\SantinoRioja-Act16\Punto4\bin\Debug\Punto4.exe.config
+C:\xampp\htdocs\SantinoRioja\P.O.O\SantinoRioja-Act16\Punto4\bin\Debug\Punto4.exe
+C:\xampp\htdocs\SantinoRioja\P.O.O\SantinoRioja-Act16\Punto4\bin\Debug\Punto4.pdb
+C:\xampp\htdocs\SantinoRioja\P.O.O\SantinoRioja-Act16\Punto4\obj\Debug\Punto4.csproj.AssemblyReference.cache
+C:\xampp\htdocs\SantinoRioja\P.O.O\SantinoRioja-Act16\Punto4\obj\Debug\Punto4.csproj.CoreCompileInputs.cache
+C:\xampp\htdocs\SantinoRioja\P.O.O\SantinoRioja-Act16\Punto4\obj\Debug\Punto4.exe
+C:\xampp\htdocs\SantinoRioja\P.O.O\SantinoRioja-Act16\Punto4\obj\Debug\Punto4.pdb
+C:\xampp\htdocs\SantinoRioja\P.O.O\SantinoRioja-Act16\Punto4\obj\Debug\Punto4.exe.config
+C:\Users\Alumno\source\repos\SantinoRioja\P.O.O\SantinoRioja-Act16\Punto4\bin\Debug\Punto4.exe.config
+C:\Users\Alumno\source\repos\SantinoRioja\P.O.O\SantinoRioja-Act16\Punto4\bin\Debug\Punto4.exe
+C:\Users\Alumno\source\repos\SantinoRioja\P.O.O\SantinoRioja-Act16\Punto4\bin\Debug\Punto4.pdb
+C:\Users\Alumno\source\repos\SantinoRioja\P.O.O\SantinoRioja-Act16\Punto4\obj\Debug\Punto4.csproj.AssemblyReference.cache
+C:\Users\Alumno\source\repos\SantinoRioja\P.O.O\SantinoRioja-Act16\Punto4\obj\Debug\Punto4.exe.config
+C:\Users\Alumno\source\repos\SantinoRioja\P.O.O\SantinoRioja-Act16\Punto4\obj\Debug\Punto4.csproj.CoreCompileInputs.cache
+C:\Users\Alumno\source\repos\SantinoRioja\P.O.O\SantinoRioja-Act16\Punto4\obj\Debug\Punto4.exe
+C:\Users\Alumno\source\repos\SantinoRioja\P.O.O\SantinoRioja-Act16\Punto4\obj\Debug\Punto4.pdb
