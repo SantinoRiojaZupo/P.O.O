@@ -27,7 +27,8 @@ constructores.*/
         }
         public Animal()
         {
-            Console.WriteLine("Clase:Animal dato:especie");
+            especie = "mamifero";
+            Console.WriteLine("Clase:Animal dato:"+especie);
         }
     }
     class Mamifero : Animal {
@@ -39,7 +40,8 @@ constructores.*/
             get { return tipoAlimentacion; }
         }
         public Mamifero() {
-            Console.WriteLine("Clase:Mamifero dato:Tipo de alimentacion");
+            tipoAlimentacion = "Herbivoro";
+            Console.WriteLine("Clase:Mamifero dato:"+ tipoAlimentacion);
         }
     }
     internal class Perro : Mamifero
@@ -51,7 +53,8 @@ constructores.*/
             get { return nombre; }
         }
         public Perro() {
-            Console.WriteLine("Clase:Perro dato: Nombre");
+            nombre = "Ringo";
+            Console.WriteLine("Clase:Perro dato:"+ nombre);
         }
         static void Main(string[] args)
         {
