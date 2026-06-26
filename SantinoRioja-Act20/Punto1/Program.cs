@@ -56,7 +56,7 @@ desde consola y luego:
         {
             float masLargo =0;
             List<VueloInternacional> vuelosInternacionales = new List<VueloInternacional>();
-            for (int i = 0;i<2;i++)
+            for (int i = 0;i<5;i++)
             {
                VueloInternacional vueloInt = new VueloInternacional();
                 if (vueloInt.NumeroDeVuelo > masLargo){
