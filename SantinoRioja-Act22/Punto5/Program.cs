@@ -33,6 +33,12 @@ o El corredor más rápido.
 
         public Carrera()
         {
+            Console.WriteLine("Ingrese el codigo de la carrera");
+            this.codigo = int.Parse(Console.ReadLine());
+            Console.WriteLine("Ingrese la hora de inicio (yyyy-MM-dd HH:mm)");
+            this.horaInicio = DateTime.Parse(Console.ReadLine());
+            Console.WriteLine("Ingrese la hora del fin (yyyy-MM-dd HH:mm)");
+            this.horaFin = DateTime.Parse(Console.ReadLine());
             corredores = new List<Corredor>();
         }
 
@@ -107,7 +113,7 @@ o El corredor más rápido.
     {
         static void Main(string[] args)
         {
-            Carrera[] carreras = new Carrera[2];
+            Carrera[] carreras = new Carrera[3];
 
             carreras[0] = new Carrera(101,
                 new DateTime(2025, 1, 1, 8, 0, 0),
@@ -116,6 +122,7 @@ o El corredor más rápido.
             carreras[1] = new Carrera(102,
                 new DateTime(2025, 1, 1, 9, 0, 0),
                 new DateTime(2025, 1, 1, 11, 0, 0));
+            carreras[2] = new Carrera();
 
             Corredor c1 = new Corredor("Juan", 1);
             c1.RegistrarTiempo(1, 45);
@@ -158,7 +165,7 @@ o El corredor más rápido.
             Console.WriteLine();
 
             Console.SetCursorPosition(25, 20);
-            Console.WriteLine("El corredor mas rapido es: Nombre: " + corredorRapido.Nombre+ " Dorsal: " + corredorRapido.NumeroDorsal + " Tiempo: " + corredorRapido.TiempoTotal);
+            Console.WriteLine("El corredor mas rapido es: Nombre:" + corredorRapido.Nombre+ " Dorsal:" + corredorRapido.NumeroDorsal + " Tiempo: " + corredorRapido.TiempoTotal);
 
             Console.ReadKey();
         }
