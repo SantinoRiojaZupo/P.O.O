@@ -62,7 +62,7 @@ acumuladas en la cola de espera utilizando .Count.*/
         {
             if (documentos.Count > 0)
             {
-                    Console.WriteLine("Nombre Documento:"+documentos[0].NombreArchivo+" paginas:" + documentos[0].CantidadPaginas);
+                    Console.WriteLine("Nombre Documento:"+documentos[0].NombreArchivo+" Paginas:" + documentos[0].CantidadPaginas);
                 documentos.RemoveAt(0);
                     if (documentos.Count == 0)
                     {
