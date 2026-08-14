@@ -71,7 +71,7 @@ actualizar la comanda.*/
             foreach (Plato plato in platos) {
                 Console.WriteLine("Plato:"+plato.NombrePlato+"  Precio:"+plato.Precio);
                     }
-            Console.WriteLine("Cantidad de items pedidos" + platos.Count);
+            Console.WriteLine("Cantidad de items pedidos:" + platos.Count);
 
         }
         public void CalcularTotalMesa()
